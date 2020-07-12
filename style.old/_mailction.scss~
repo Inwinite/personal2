@@ -1,0 +1,13 @@
+.mailction {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    .have{
+	display:inline-block;
+    }
+    .donthave {
+	display: inline-block;
+    }
+}

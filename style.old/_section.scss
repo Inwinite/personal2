@@ -1,0 +1,74 @@
+section {
+    text-align: center;
+#buttonMas {
+    display: block;
+    height: auto;
+    width: 150px;
+    background-color: white;
+    transition: all 1s;
+    margin:0 auto 50px auto;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 2.8rem;
+      span {
+	  display: block;
+	  margin: 0 auto;
+	  padding: 25px;
+
+	    }
+
+}
+#buttonMas:hover {
+    background-color: #4e4c52;
+    color: white;
+    cursor: pointer;
+       }
+.intro {
+    background-color: black;
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    p, span  {
+    display: inline-block;
+    font-family: 'UnifontMedium';
+   font-weight: normal;
+   font-style: normal;
+   color: white;
+
+    }
+}
+.consola {
+    padding: 5px 10px 0 10px;
+    text-align:left;
+}
+#consola2 {
+    padding: 0 0 0 10px;
+    display: block;
+    text-align: left;
+}
+img {
+    display: block;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: solid 1px black;
+}
+.features {
+    //display:inline-block;
+    font-family: 'EvolventaOblique';
+    width: 50%;
+    //border-top: solid 1px black;
+    //border-bottom: solid 1px black;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 0 10px 0;
+    span {
+	display: block;
+    }
+}
+}

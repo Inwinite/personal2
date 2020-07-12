@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "unifont";
+    src: url("unifont-12.1.03.ttf") format("truetype");
+}
+$primaryFont: 'EvolventaRegular';
+
+body {
+    font-family: $primaryFont;
+    
+}
+
+.notshown {
+    visibility: hidden;
+}
+
+.shown {
+    display: block;
+}
+
+section {
+    height: 70vh;
+}
+
+a {
+    color:inherit;
+    text-decoration: none;
+  
+} 
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}

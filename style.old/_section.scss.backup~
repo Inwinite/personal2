@@ -1,0 +1,51 @@
+
+           
+
+#buttonMas {
+    display: block;
+    height: auto;
+    width: 150px;
+    background-color: white;
+    transition: all 1s;
+    margin:0 auto 50px auto;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 2.8rem;
+}
+      span {
+	  display: block;
+	  margin: 0 auto;
+	  padding: 25px;
+	           }
+  #buttonMas:hover {
+    background-color: #4e4c52;
+    color: white;
+    cursor: pointer;
+       }
+.intro {
+    background-color: black;
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+    
+      span, p {
+    display: inline-block;
+    font-family: 'UnJamoBatangRegular';
+   font-weight: normal;
+   font-style: normal;
+     color: white;
+       }
+   
+    
+
+
+.consola {
+    padding: 5px 0 0 10px;
+}
+#consola2 {
+    padding: 0 0 0 10px;
+    display: block;
+}
+
+

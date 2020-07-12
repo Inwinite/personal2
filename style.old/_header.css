@@ -1,0 +1,15 @@
+h1, h2 {
+  text-align: center;
+}
+
+span {
+  font-family: "UnifontMedium";
+  font-weight: normal;
+  font-style: normal;
+}
+
+li {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=_header.css.map */

@@ -1,0 +1,39 @@
+footer {
+    text-align: center;
+    margin-top: 20px;
+    div {
+	width:75%;
+	display: block;
+	
+    img {
+	padding: 15px;
+    }
+    .inbox, .linkedin, .phone {
+	position: relative;
+    }
+    .inbox::after {
+	content: "manuelseguez@inwinite.website";
+	display:inline-block;
+	color: black;
+	position: absolute;
+	top:35%;
+    }
+    .linkedin::after {
+	content:"https://www.linkedin.com/in/manuel-mariano-seguez-ocantos-14734a150/";
+	display: inline-block;
+	color: black;
+	position: absolute;
+	top:35%;
+	
+    }
+
+    .phone::after {
+	content: "011-1569080646";
+		     display:inline-block;
+	color:black;
+	position: absolute;
+	top: 35%;
+		    
+    }
+     }
+}
