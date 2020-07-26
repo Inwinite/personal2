@@ -2,250 +2,250 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+/* line 7, /home/manuel/Documents/web/web1/style/_reset.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
+/* line 17, /home/manuel/Documents/web/web1/style/_reset.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
-}
+  display: block; }
 
+/* line 20, /home/manuel/Documents/web/web1/style/_reset.scss */
 body {
-  line-height: 1;
-}
+  line-height: 1; }
 
+/* line 23, /home/manuel/Documents/web/web1/style/_reset.scss */
 ol, ul {
-  list-style: none;
-}
+  list-style: none; }
 
+/* line 26, /home/manuel/Documents/web/web1/style/_reset.scss */
 blockquote, q {
-  quotes: none;
-}
+  quotes: none; }
 
+/* line 30, /home/manuel/Documents/web/web1/style/_reset.scss */
 blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
+  content: '';
+  content: none; }
 
+/* line 35, /home/manuel/Documents/web/web1/style/_reset.scss */
 q:before, q:after {
-  content: "";
-  content: none;
-}
+  content: '';
+  content: none; }
 
+/* line 39, /home/manuel/Documents/web/web1/style/_reset.scss */
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 @font-face {
   font-family: "unifont";
-  src: url("unifont-12.1.03.ttf") format("truetype");
-}
+  src: url("unifont-12.1.03.ttf") format("truetype"); }
+
+/* line 7, /home/manuel/Documents/web/web1/style/_utils.scss */
 body {
-  font-family: "EvolventaRegular";
-}
+  font-family: "EvolventaRegular"; }
 
+/* line 12, /home/manuel/Documents/web/web1/style/_utils.scss */
 .notshown {
-  visibility: hidden;
-}
+  visibility: hidden; }
 
+/* line 16, /home/manuel/Documents/web/web1/style/_utils.scss */
 .shown {
-  display: block;
-}
+  display: block; }
 
+/* line 22, /home/manuel/Documents/web/web1/style/_utils.scss */
 a {
   color: inherit;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
+/* line 27, /home/manuel/Documents/web/web1/style/_utils.scss */
 a:hover, a:visited, a:link, a:active {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
+/* line 1, /home/manuel/Documents/web/web1/style/_header.scss */
 header {
   padding: 40px 0;
-  text-align: center;
-}
-header h1 {
-  font-size: 45px;
-}
-header span, header p {
-  font-family: "UnifontMedium";
-  font-weight: normal;
-  font-style: normal;
-}
-header li {
-  display: inline-block;
-  margin: 0 5px 0 5px;
-}
-header .sub {
-  border-bottom: solid 4px black;
-}
-header a {
-  color: inherit;
-  text-decoration: none;
-}
-header a:hover, header a:focus, header a:active {
-  color: #999;
-  text-decoration: none;
-  border-bottom: solid 4px black;
-}
+  text-align: center; }
+  /* line 4, /home/manuel/Documents/web/web1/style/_header.scss */
+  header h1 {
+    font-size: 45px; }
+  /* line 8, /home/manuel/Documents/web/web1/style/_header.scss */
+  header span, header p {
+    font-family: 'UnifontMedium';
+    font-weight: normal;
+    font-style: normal; }
+  /* line 14, /home/manuel/Documents/web/web1/style/_header.scss */
+  header li {
+    display: inline-block;
+    margin: 0 5px 0 5px; }
+  /* line 22, /home/manuel/Documents/web/web1/style/_header.scss */
+  header .sub {
+    border-bottom: solid 4px black; }
+  /* line 25, /home/manuel/Documents/web/web1/style/_header.scss */
+  header a {
+    color: inherit;
+    text-decoration: none; }
+  /* line 29, /home/manuel/Documents/web/web1/style/_header.scss */
+  header a:hover, header a:focus, header a:active {
+    color: #999;
+    text-decoration: none;
+    border-bottom: solid 4px black; }
 
+/* line 1, /home/manuel/Documents/web/web1/style/_section.scss */
 section {
-  text-align: center;
-}
-section #buttonMas {
-  display: block;
-  height: auto;
-  width: 150px;
-  background-color: white;
-  transition: all 1s;
-  margin: 0 auto 50px auto;
-  text-align: center;
-  border: 3px solid black;
-  border-radius: 2.8rem;
-}
-section #buttonMas span {
-  display: block;
-  margin: 0 auto;
-  padding: 25px;
-}
-section #buttonMas:hover {
-  background-color: #4e4c52;
-  color: white;
-  cursor: pointer;
-}
-section .intro {
-  background-color: black;
-  min-width: 264px;
-  max-width: 600PX;
-  display: block;
-  margin: 0 auto;
-}
-section .intro p, section .intro span {
-  display: inline-block;
-  font-family: "UnifontMedium";
-  font-weight: normal;
-  font-style: normal;
-  color: white;
-}
-section .consola {
-  padding: 5px 10px 0 10px;
-  text-align: left;
-}
-section #consola2 {
-  padding: 0 0 0 10px;
-  display: block;
-  text-align: left;
-}
-section img {
-  display: block;
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  border: solid 1px black;
-}
-section .features {
-  font-family: "EvolventaOblique";
-  width: 50%;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 10px 0 10px 0;
-}
-section .features span {
-  display: block;
-}
+  text-align: center; }
+  /* line 3, /home/manuel/Documents/web/web1/style/_section.scss */
+  section #buttonMas {
+    display: block;
+    height: auto;
+    width: 150px;
+    background-color: white;
+    transition: all 1s;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 2.8rem; }
+    /* line 13, /home/manuel/Documents/web/web1/style/_section.scss */
+    section #buttonMas span {
+      display: block;
+      margin: 0 auto;
+      padding: 25px; }
+  /* line 21, /home/manuel/Documents/web/web1/style/_section.scss */
+  section #buttonMas:hover {
+    background-color: #4e4c52;
+    color: white;
+    cursor: pointer; }
+  /* line 26, /home/manuel/Documents/web/web1/style/_section.scss */
+  section .intro {
+    background-color: black;
+    min-width: 264px;
+    max-width: 600PX;
+    display: block;
+    margin: 0 auto; }
+    /* line 32, /home/manuel/Documents/web/web1/style/_section.scss */
+    section .intro p, section .intro span {
+      display: inline-block;
+      font-family: 'UnifontMedium';
+      font-weight: normal;
+      font-style: normal;
+      color: white; }
+  /* line 41, /home/manuel/Documents/web/web1/style/_section.scss */
+  section .consola {
+    padding: 5px 10px 0 10px;
+    text-align: left; }
+  /* line 45, /home/manuel/Documents/web/web1/style/_section.scss */
+  section #consola2 {
+    padding: 0 0 0 10px;
+    display: block;
+    text-align: left; }
+  /* line 50, /home/manuel/Documents/web/web1/style/_section.scss */
+  section img {
+    display: block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid 1px black; }
+  /* line 60, /home/manuel/Documents/web/web1/style/_section.scss */
+  section .features {
+    font-family: 'EvolventaOblique';
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 0 10px 0; }
+    /* line 71, /home/manuel/Documents/web/web1/style/_section.scss */
+    section .features span {
+      display: block; }
 
+/* line 1, /home/manuel/Documents/web/web1/style/_footer.scss */
 footer {
   text-align: center;
-  margin-top: 20px;
-}
-footer div {
-  width: 75%;
-  display: block;
-}
-footer div img {
-  padding: 15px;
-}
-footer div .inbox, footer div .linkedin, footer div .phone {
-  position: relative;
-}
-footer div .inbox::after {
-  content: "manuelseguez@inwinite.website";
-  display: inline-block;
-  color: black;
-  position: absolute;
-  top: 35%;
-}
-footer div .linkedin::after {
-  content: "https://www.linkedin.com/in/manuel-mariano-seguez-ocantos-14734a150/";
-  display: inline-block;
-  color: black;
-  position: absolute;
-  top: 35%;
-}
-footer div .phone::after {
-  content: "011-1569080646";
-  display: inline-block;
-  color: black;
-  position: absolute;
-  top: 35%;
-}
+  margin-top: 20px; }
+  /* line 4, /home/manuel/Documents/web/web1/style/_footer.scss */
+  footer div {
+    width: 75%;
+    display: block; }
+    /* line 8, /home/manuel/Documents/web/web1/style/_footer.scss */
+    footer div img {
+      padding: 15px; }
+    /* line 11, /home/manuel/Documents/web/web1/style/_footer.scss */
+    footer div .inbox, footer div .linkedin, footer div .phone {
+      position: relative; }
+    /* line 14, /home/manuel/Documents/web/web1/style/_footer.scss */
+    footer div .inbox::after {
+      content: "manuelseguez@inwinite.website";
+      display: inline-block;
+      color: black;
+      position: absolute;
+      top: 35%; }
+    /* line 21, /home/manuel/Documents/web/web1/style/_footer.scss */
+    footer div .linkedin::after {
+      content: "https://www.linkedin.com/in/manuel-mariano-seguez-ocantos-14734a150/";
+      display: inline-block;
+      color: black;
+      position: absolute;
+      top: 35%; }
+    /* line 30, /home/manuel/Documents/web/web1/style/_footer.scss */
+    footer div .phone::after {
+      content: "011-1569080646";
+      display: inline-block;
+      color: black;
+      position: absolute;
+      top: 35%; }
 
+/* line 1, /home/manuel/Documents/web/web1/style/_mailction.scss */
 .mailction {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
-}
-.mailction h3 {
-  font-size: 40px;
-}
-.mailction .have {
-  padding: 30px;
-  display: flex;
-  width: 400px;
-  height: 300px;
-  flex-direction: column;
-  justify-content: space-between;
-  border: 2px solid black;
-  border-radius: 2.8rem;
-}
-.mailction .have div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  border: 3px solid black;
-  border-radius: 2.8rem;
-  height: 50px;
-  transition: all 1s;
-}
-.mailction .have div:hover {
-  background-color: #4e4c52;
-  color: white;
-  cursor: pointer;
-}
-.mailction .donthave {
-  padding: 30px;
-  display: flex;
-  width: 400px;
-  height: 300px;
-  border: 2px solid black;
-  border-radius: 2.8rem;
-  flex-direction: column;
-  justify-content: space-between;
-}
+  align-items: center; }
+  /* line 6, /home/manuel/Documents/web/web1/style/_mailction.scss */
+  .mailction h3 {
+    font-size: 40px; }
+  /* line 9, /home/manuel/Documents/web/web1/style/_mailction.scss */
+  .mailction .have {
+    padding: 30px;
+    display: flex;
+    width: 400px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 2.8rem; }
+    /* line 18, /home/manuel/Documents/web/web1/style/_mailction.scss */
+    .mailction .have div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border: 3px solid black;
+      border-radius: 2.8rem;
+      height: 50px;
+      transition: all 1s; }
+    /* line 29, /home/manuel/Documents/web/web1/style/_mailction.scss */
+    .mailction .have div:hover {
+      background-color: #4e4c52;
+      color: white;
+      cursor: pointer; }
+  /* line 35, /home/manuel/Documents/web/web1/style/_mailction.scss */
+  .mailction .donthave {
+    padding: 30px;
+    display: flex;
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 2.8rem;
+    flex-direction: column;
+    justify-content: space-between; }
 
 /*# sourceMappingURL=compiler.css.map */
